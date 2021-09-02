@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  .app-left {
+    width: 210px;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    text-align: center;
+    border-right: 1px solid whitesmoke;
+    .logo {
+      height: 50px;
+      line-height: 50px;
+      color: #1890ff;
+      font-size: 20px;
+      font-weight: 700;
+      border-bottom: 1px solid whitesmoke;
+    }
+  }
+  .app-right {
+    width: calc(100% - 210px);
+    margin-left: 210px;
+    .header {
+      height: 50px;
+      line-height: 50px;
+      color: #ffffff;
+      border-bottom: 1px solid whitesmoke;
+      text-align: center;
+      background-color: #1890ff;
+    }
+  }
+}

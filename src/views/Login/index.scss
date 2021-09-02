@@ -1,0 +1,32 @@
+.login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  .login-content {
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin-top: 200px;
+    box-shadow: 0 8px 20px #8fa8bf59;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .login-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .login-input {
+      width: 100%;
+      padding: 10px;
+      .login-button {
+        margin-top: 10px;
+        .login-form-button {
+            width: 100%;
+        }
+      }
+    }
+  }
+}
